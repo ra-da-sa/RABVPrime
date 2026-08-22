@@ -1,0 +1,53 @@
+Time: 2026-08-22 10:56:04
+Command: Treemmer.py -i morocco_results/morocco_qc/morocco_qc_sequences.fasta -o morocco_results
+
+Building phylogenetic tree using FastTree...
+
+Applying midpoint rooting...
+
+Pruning using Treemmer...
+RTL      Remaining Sequences
+0.8562                     4
+Removed 1 sequence.
+
+Total representative sequences: 4
+Sequence length range: 11804-11926 bp
+Average sequence length: 11835 bp
+
+Phylogenetic Diversity Summary
+RTL achieved: 0.86
+Total tree length: 0.0281
+Mean pairwise distance: 0.0149
+
+Country Summary
+Country     Count       %
+-------------------------
+Morocco         4  100.0%
+
+Subclade Summary
+Subclade     Count       %
+--------------------------
+AF1a             4  100.0%
+
+Temporal Summary
+Year range: 1989-2009
+Year     Count       %
+----------------------
+1989         1   25.0%
+1990         1   25.0%
+2008         1   25.0%
+2009         1   25.0%
+
+Host Summary
+Host                 Count       %
+----------------------------------
+Canis familiaris         3   75.0%
+Bos taurus               1   25.0%
+
+Results written to: 
+	✓ Saved 4 representative sequences to: morocco_results/morocco_treemmer/morocco_representative.fasta 
+	✓ Saved metadata to: morocco_results/morocco_treemmer/morocco.nwk_metadata_RTL_0.9 
+	✓ Saved midpoint-rooted tree to: morocco_results/morocco_treemmer/morocco.nwk 
+	✓ Saved pruned tree to: morocco_results/morocco_treemmer/morocco.nwk_RTL_0.9 
+	✓ Saved pruned tree plot to: morocco_results/morocco_treemmer/morocco.nwk_RTL_0.9.png 
+	✓ Saved summary to: morocco_results/morocco_treemmer/morocco_treemmer_summary.txt 

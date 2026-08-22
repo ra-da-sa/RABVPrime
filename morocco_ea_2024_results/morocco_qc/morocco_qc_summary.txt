@@ -1,0 +1,68 @@
+Time: 2026-08-22 10:56:33
+Command: QualityControl.py -i morocco_ea_2024_results/morocco_sequences/morocco_sequences_sequences.fasta -o morocco_ea_2024_results
+
+Removing duplicate sequences...
+Removed 0 sequences; retaining 5 unique sequences.
+
+Trimming gaps from the alignment...
+
+Calculating gap content...
+           Gap content  Status  
+KX148195         1.04%  passed
+KX148196         1.04%  passed
+KX148193         1.03%  passed
+KX148194         1.03%  passed
+KF155001         0.02%  passed
+Minimum gap content: 0.02%
+Maximum gap content: 1.04%
+Average gap content: 0.83%
+INFO: No sequences have high gap content (>20%).
+
+Removing sequences with N-content above the threshold (20%)...
+           N-content  Status
+KF155001       0.00%  passed
+KX148193       0.00%  passed
+KX148194       0.00%  passed
+KX148195       0.00%  passed
+KX148196       0.00%  passed
+Minimum N-content: 0.00%
+Maximum N-content: 0.00%
+Average N-content: 0.00%
+Removed 0 sequences with N-content above the threshold; retaining 5 sequences.
+
+Total sequences removed: 0
+
+Total sequences retained: 5
+Sequence length range: 11804-11926 bp
+Average sequence length: 11829 bp
+
+Country Summary
+Country     Count       %
+-------------------------
+Morocco         5  100.0%
+
+Subclade Summary
+Subclade     Count       %
+--------------------------
+AF1a             5  100.0%
+
+Temporal Summary
+Year range: 1989-2009
+Year     Count       %
+----------------------
+1989         1   20.0%
+1990         1   20.0%
+2004         1   20.0%
+2008         1   20.0%
+2009         1   20.0%
+
+Host Summary
+Host                 Count       %
+----------------------------------
+Canis familiaris         4   80.0%
+Bos taurus               1   20.0%
+
+Results written to:
+	✓ Saved 5 sequences to: morocco_ea_2024_results/morocco_qc/morocco_qc_sequences.fasta
+	✓ Saved metadata to: morocco_ea_2024_results/morocco_qc/morocco_qc_metadata.tsv
+	✓ Saved summary to: morocco_ea_2024_results/morocco_qc/morocco_qc_summary.txt

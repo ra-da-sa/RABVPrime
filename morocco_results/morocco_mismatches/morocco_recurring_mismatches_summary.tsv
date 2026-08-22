@@ -1,0 +1,8 @@
+amplicon	primer.issues	positionInPrimer	refSeq	primerSeq	primerConsensus	type	count	mismatch_prop
+24	3b6f98a3_24_RIGHT_1	18	T:1.00	G	A	snp	4	0.80
+26	3b6f98a3_26_LEFT_1	11	G:1.00	A	G	snp	3	0.60
+27	3b6f98a3_27_RIGHT_1	16	T:1.00	G	A	snp	3	0.60
+26	3b6f98a3_26_LEFT_2	11	A:1.00	G	A	snp	2	0.40
+27	3b6f98a3_27_RIGHT_2	20	C:1.00	A	G	snp	2	0.40
+24	3b6f98a3_24_RIGHT_2	19	C:1.00	A	G	snp	1	0.20
+31	3b6f98a3_31_RIGHT_1	10	C:1.00	A	G	snp	1	0.20

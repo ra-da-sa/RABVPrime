@@ -1,0 +1,37 @@
+Time: 2026-08-22 10:56:01
+Command: RetrieveSequences.py -c Morocco -db rabv_V-gDB_10042026.db -o morocco_results
+
+Total sequences retrieved: 5
+Sequence length range: 11804-11926 bp
+Average sequence length: 11829 bp
+
+Country Summary
+Country     Count       %
+-------------------------
+Morocco         5  100.0%
+
+Subclade Summary
+Subclade     Count       %
+--------------------------
+AF1a             5  100.0%
+
+Temporal Summary
+Year range: 1989-2009
+Year     Count
+--------------
+1989         1
+1990         1
+2004         1
+2008         1
+2009         1
+
+Host Summary
+Host                 Count       %
+----------------------------------
+Canis familiaris         4   80.0%
+Bos taurus               1   20.0%
+
+Results written to:
+	✓ Saved 5 sequences to: morocco_results/morocco_sequences/morocco_sequences_sequences.fasta
+	✓ Saved metadata to: morocco_results/morocco_sequences/morocco_sequences_metadata.tsv
+	✓ Saved summary to: morocco_results/morocco_sequences/morocco_sequences_summary.txt
