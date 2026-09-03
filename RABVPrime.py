@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""Single entry point for all 6 use cases — infers which pipeline to run from which inputs you
-provide (--country and/or --subclade, and/or --fasta) and whether you're designing new primers
-and then evaluating them (--design-and-evaluate) or only checking an existing/external set
-(--evaluate), then runs that pipeline's steps directly.
-
---country and --subclade are both optional database-side filters and can be used alone or
-together (e.g. only sequences that are both from Morocco AND subclade AF1a) — this mirrors what
-RetrieveSequences.py itself already supports.
-"""
 import argparse
 import subprocess
 import sys
